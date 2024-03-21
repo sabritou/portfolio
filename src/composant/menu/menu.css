@@ -1,0 +1,54 @@
+body {
+    background-image: url("/src/img/galaxy.jpg");
+    color: #ffffff;
+}
+
+.h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 5rem;
+}
+
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: rgb(255, 0, 0);
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+}
+
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 15px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.conteneur{
+  margin: 0px 20px;
+  height: 1500px;
+}
