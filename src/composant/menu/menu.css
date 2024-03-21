@@ -1,5 +1,6 @@
 body {
     background-image: url("/src/img/galaxy.jpg");
+    background-size: 104%;
     color: #ffffff;
 }
 
@@ -13,9 +14,10 @@ body {
 nav{
     width: 100%;
     margin: 0px auto 40px auto;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(192, 4, 4);
     position: sticky;
     top: 0px;
+   
 }
 
 nav ul{
@@ -26,6 +28,7 @@ nav li{
     float: left;
     width: 25%;/*100% divisé par le nombre d'éléments de menu*/
     text-align: center;/*Centre le texte dans les éléments de menu*/
+    
 }
 
 
@@ -41,6 +44,7 @@ nav a{
     color: rgb(255, 255, 255);
     border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
     padding: 15px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    
 }
 
 nav a:hover{

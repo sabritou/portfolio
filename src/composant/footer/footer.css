@@ -1,8 +1,18 @@
 .footer {
+ position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    
+    width: auto;
+    left: 0px;
+    right: 0px;
+    font-size: 14px;
+
+
     padding:40px 0;
-    background-color:rgb(255, 0, 0);
+    background-color:rgb(176, 6, 6);
     color:#ffffff;
-    margin-top: 1rem;
+    margin-top: 5rem;
   }
   
   .footer ul {
