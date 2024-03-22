@@ -3,6 +3,8 @@ import "./profil.css"
 
 function profil() {
   return (
+<>
+
     <p class="profil">
     <div class="button"><div class="button-circle"><div class="round-button"></div></div></div>    
     <h1>Mon univers .. Sabri K.</h1>
@@ -15,7 +17,7 @@ function profil() {
 
 
     </p>
-
+</>
     )
 }
 

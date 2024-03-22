@@ -1,18 +1,25 @@
 import React from "react";
 import "./menu.css"
+import { Link } from 'react-router-dom';
 
 function Menu() {
   return (
-   
-       
-   <nav class="menu">
-        <ul>
-          <li><a href="/src/App.js">Home</a></li>
-          <li><a href="/src/">à propos</a></li>
-          <li><a href="/src/">Projet</a></li>
-          <li><a href="/src/">Contact</a></li>
-        </ul>
-   </nav>
+    <nav>
+       <ul>
+          <li>
+             <Link to="/profil">Home</Link>
+          </li>
+          <li>
+             <Link to="/propos">à propos</Link>
+          </li>
+          <li>
+             <Link to="/projet">Projet</Link>
+          </li>
+          <li>
+             <Link to="/contact">Contact</Link>
+          </li>
+       </ul>
+ </nav>
      
   )
 }

@@ -1,8 +1,14 @@
 body {
     background-image: url("/src/img/galaxy.jpg");
-    background-size: 104%;
     color: #ffffff;
 }
+@media (max-width: 480px) {
+    img {
+        width: 100%;
+    }
+}
+   
+
 
 .h1 {
     color: #ffffff;
