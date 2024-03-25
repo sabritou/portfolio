@@ -1,0 +1,42 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+
+.arrow i {
+  display: none;
+}
+
+.arrow {
+  position: center;
+	display: block;
+  color: rgb(255, 0, 0);
+}
+
+.arrow:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.arrow:hover i { 
+  display: block;
+  position: absolute;
+  top: 0.50em; 
+  left: -6em;
+}
+
+
+
+.audioplayer {
+        height: 40px;
+        width: 300px;
+        /* background: #ffffff; */
+        box-shadow: 0 0 20px 0 rgb(255, 0, 0);
+        font-family: arial;
+        color: white;
+        font-size: 0.75em;
+        overflow: hidden;
+        /* display: grid; */
+        grid-template-rows: 6px auto;
+     }
+
+audio {
+     color: rgb(255, 0, 0);
+}

@@ -67,7 +67,7 @@ p {
 	top: 0;
 	content: ' ';
 	display: block;
-	width: 6px;
+	width: 7px;
 	height: 100%;
 	margin-left: -3px;
 	background: rgb(80,80,80);
@@ -98,6 +98,7 @@ p {
 	width: 300px;
 	float: left;
 	text-align: right;
+	
   }
   
   .direction-r {
@@ -205,6 +206,7 @@ p {
 	display: inline-block;
 	padding: 4px 6px;
 	background: rgb(248,248,248);
+	font-size: 1rem;
   }
   
   .desc {
@@ -297,13 +299,14 @@ p {
   
   .desc {
 	  position: relative;
+	  font-size: 1rem;
 	  margin: 1em 0 0 0;
 	  padding: 1em;
 	  background: rgb(245,245,245);
 	  -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
 	  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
 	  box-shadow: 0 0 1px rgba(0,0,0,0.20);
-	  
+
 	z-index: 15;
   }
   

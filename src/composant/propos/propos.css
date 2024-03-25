@@ -1,0 +1,93 @@
+.container {
+    
+    width: 85rem;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/02/super-mario-bros-pelicula-2953600.jpg?tf=3840x');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    font-family: 'Arial', sans-serif; 
+}
+
+.container2 {
+    width: 85rem;
+    margin-left: 20rem;
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/02/super-mario-bros-pelicula-2953600.jpg?tf=3840x');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    font-family: 'Arial', sans-serif; 
+}
+
+
+.movie-info {
+    position: relative;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px;
+}
+
+.movie-info h2 {
+    margin-top: 0;
+    color: #ffffff; 
+    font-size: 3em; 
+}
+
+.movie-info img {
+    width: 40%; 
+    border-radius: 10px; 
+}
+
+.movie-info p {
+    line-height: 1.6;
+    overflow: auto; 
+    height: 100px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.rating {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #FFD700; 
+}
+
+
+.movie-info .director,
+.movie-info .cast,
+.movie-info .genre,
+.movie-info .release-date {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.movie-info .director span,
+.movie-info .cast span,
+.movie-info .genre span,
+.movie-info .release-date span {
+    font-weight: bold;
+    color: #FFD700; 
+}
+
+.recommendation {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF; 
+    background-color: #000000; 
+    color: #FFFFFF; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
