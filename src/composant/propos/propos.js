@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import "./propos.css"
 
@@ -19,7 +20,7 @@ function propos() {
     <div class="container">
         <div class="movie-info">
             <h2>À Propos</h2>
-            <img src="/src/img/ada.png" alt='Ada'></img>
+            <img src="/src/img/ada.png" />
             <h3>Super Mario Bros</h3>
             <p>Dos hermanos plomeros, Mario y Luigi, caen por las alcantarillas y llegan a un mundo subterráneo mágico en el que deben enfrentarse al malvado Bowser para rescatar a la princesa Peach, quien ha sido forzada a aceptar casarse con él.</p>
             <div class="rating">★★★★☆ 4/5</div>
@@ -36,7 +37,7 @@ function propos() {
     <div class="container2">
         <div class="movie-info">
             <h2>À Propos</h2>
-            <img src="..."></img>
+            <img src="..." />
             <h3>Super Mario Bros</h3>
             <p>Dos hermanos plomeros, Mario y Luigi, caen por las alcantarillas y llegan a un mundo subterráneo mágico en el que deben enfrentarse al malvado Bowser para rescatar a la princesa Peach, quien ha sido forzada a aceptar casarse con él.</p>
             <div class="rating">★★★★☆ 4/5</div>
