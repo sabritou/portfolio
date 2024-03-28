@@ -8,7 +8,7 @@ function contact() {
 <>
 
 
-<div class="audioplayer">
+<div className="audioplayer">
 <audio controls>
     <source src="https://s17.aconvert.com/convert/p3r68-cdx67/oavel-q4qe6.mp3" type="audio/mpeg" />
   </audio>
@@ -16,16 +16,24 @@ function contact() {
 
 
 
+
 <center>
-<ol>
-<li><a class="arrow" href=""><i class="fas fa-arrow-alt-right" />Discord</a></li>
-<li><a class="arrow"><i class="fas fa-arrow-alt-right"></i>Github</a></li>
-<li><a class="arrow"><i class="fas fa-arrow-alt-right"></i>Linkedin</a></li>
-<li><a class="arrow"><i class="fas fa-arrow-alt-right"></i>...</a></li>
-<li><a class="arrow"><i class="fas fa-arrow-alt-right"></i>...</a></li>
-</ol>
+  <form className="form">
+  
+    <label for="nome">Name:</label>
+    
+      <input type="text" className="infos" id="nome" name="nome"></input>
+    <div className="mario"></div>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email"></input>
+
+      
+      <button type="reset" id="limpar">Clear</button></form>
 </center>
 </>
+
+
+
     )
 }
 

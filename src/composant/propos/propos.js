@@ -8,48 +8,41 @@ function propos() {
         <>
         
         
-        
-<html>
-<head>
-    
-</head>
-<body>
 
 
     
-    <div class="container">
-        <div class="movie-info">
+    <div className="container">
+        <div className="movie-info">
             <h2>À Propos</h2>
-            <img src="/src/img/ada.png" />
+            <img src="./img/ada.jpg" />
             <h3>Super Mario Bros</h3>
             <p>Dos hermanos plomeros, Mario y Luigi, caen por las alcantarillas y llegan a un mundo subterráneo mágico en el que deben enfrentarse al malvado Bowser para rescatar a la princesa Peach, quien ha sido forzada a aceptar casarse con él.</p>
-            <div class="rating">★★★★☆ 4/5</div>
-            <div class="director"><span>Director:</span> Aaron Horvath</div>
-            <div class="cast"><span>Reparto:</span> Anya Taylor-Joy, Jack Black,Chris Pratt,  Chris Pratt</div>
-            <div class="genre"><span>Género:</span> Acción, Aventura, Comedia</div>
-            <div class="release-date"><span>Fecha de lanzamiento:</span>5 de abril de 2023</div>
-            <div class="recommendation">93%</div>
+            <div className="rating">★★★★☆ 4/5</div>
+            <div className="director"><span>Director:</span> Aaron Horvath</div>
+            <div className="cast"><span>Reparto:</span> Anya Taylor-Joy, Jack Black,Chris Pratt,  Chris Pratt</div>
+            <div className="genre"><span>Género:</span> Acción, Aventura, Comedia</div>
+            <div className="release-date"><span>Fecha de lanzamiento:</span>5 de abril de 2023</div>
+            <div className="recommendation">93%</div>
         </div>
     </div>
 
 
 
-    <div class="container2">
-        <div class="movie-info">
+    <div className="container2">
+        <div className="movie-info">
             <h2>À Propos</h2>
             <img src="..." />
             <h3>Super Mario Bros</h3>
             <p>Dos hermanos plomeros, Mario y Luigi, caen por las alcantarillas y llegan a un mundo subterráneo mágico en el que deben enfrentarse al malvado Bowser para rescatar a la princesa Peach, quien ha sido forzada a aceptar casarse con él.</p>
-            <div class="rating">★★★★☆ 4/5</div>
-            <div class="director"><span>Director:</span> Aaron Horvath</div>
-            <div class="cast"><span>Reparto:</span> Anya Taylor-Joy, Jack Black,Chris Pratt,  Chris Pratt</div>
-            <div class="genre"><span>Género:</span> Acción, Aventura, Comedia</div>
-            <div class="release-date"><span>Fecha de lanzamiento:</span>5 de abril de 2023</div>
-            <div class="recommendation">93%</div>
+            <div className="rating">★★★★☆ 4/5</div>
+            <div className="director"><span>Director:</span> Aaron Horvath</div>
+            <div className="cast"><span>Reparto:</span> Anya Taylor-Joy, Jack Black,Chris Pratt,  Chris Pratt</div>
+            <div className="genre"><span>Género:</span> Acción, Aventura, Comedia</div>
+            <div className="release-date"><span>Fecha de lanzamiento:</span>5 de abril de 2023</div>
+            <div className="recommendation">93%</div>
         </div>
     </div>
-</body>
-</html>
+
 
         
         </>

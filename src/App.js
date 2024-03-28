@@ -8,6 +8,7 @@ import Contact from './composant/contact/contact';
 import Projet from './composant/projet/projet';
 import Propos from './composant/propos/propos';
 
+
 function App() {
     return (
     <div>
@@ -27,7 +28,7 @@ function App() {
     </BrowserRouter>
    
       </div>
-    
+      
       <Footer></Footer>
     </div>
 
