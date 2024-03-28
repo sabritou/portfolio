@@ -2,27 +2,9 @@
 
 
 
-.audioplayer {
-        height: 40px;
-        width: 300px;
-        /* background: #ffffff; */
-        box-shadow: 0 0 20px 0 rgb(255, 0, 0);
-        font-family: arial;
-        color: white;
-        font-size: 0.75em;
-        overflow: hidden;
-        /* display: grid; */
-        grid-template-rows: 6px auto;
-     }
-
-audio {
-     color: rgb(255, 0, 0);
-}
 
 
-
-
-form {
+.box {
   background-color: #fcd0a1;
   border-radius: 10px;
   padding: 200px;
@@ -60,20 +42,6 @@ button {
 
 button:hover {
   background-color: #b54141;
-}
-
-#limpar {
-  background-color: #fcb13e;
-  color: white;
-  font-size: 18px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#limpar:hover {
-  background-color: #c78d35;
 }
 
 .mario {

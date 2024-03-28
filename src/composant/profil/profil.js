@@ -2,7 +2,7 @@
 import React from "react";
 import "./profil.css"
 import Button from "../button/button";
-
+import Competance from "../competance/competance";
 
 
 function profil() {
@@ -17,13 +17,17 @@ function profil() {
 
 
 
-
+<Button></Button>
 
     </div>
     
     <center>
-    <Button></Button>
-    </center>
+    
+    <Competance></Competance>
+    </center> 
+  
+  
+   
 </>
 
     )

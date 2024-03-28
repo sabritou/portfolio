@@ -30,7 +30,7 @@
 
 .movie-info {
     position: relative;
-    padding: 20px;
+    padding: 40px;
     background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px;
 }
@@ -38,11 +38,14 @@
 .movie-info h2 {
     margin-top: 0;
     color: #ffffff; 
-    font-size: 3em; 
+    font-size: 3em;
+     
 }
 
 .movie-info img {
-    width: 40%; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20%; 
     border-radius: 10px; 
 }
 
@@ -54,6 +57,7 @@
     border: none; 
     padding: 10px;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 

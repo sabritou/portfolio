@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from "react";
 import "./contact.css"
 
@@ -8,28 +8,27 @@ function contact() {
 <>
 
 
-<div className="audioplayer">
-<audio controls>
-    <source src="https://s17.aconvert.com/convert/p3r68-cdx67/oavel-q4qe6.mp3" type="audio/mpeg" />
-  </audio>
+
+
+  <center> 
+    <div className="mario"></div>
+  <div className="box">
+     
+  <a href="https://github.com/sabritou"  target="_blank" rel="noopener noreferrer">
+      <button className="learn-more">Github</button>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/sabri-k-1a9405224"  target="_blank" rel="noopener noreferrer">
+      <button className="learn-more">Linkedin</button>
+      </a>
+      
+    <a href="https://discord.gg/AkCfd4fFkE"  target="_blank" rel="noopener noreferrer">
+      <button className="learn-more">Discord</button>
+      </a>
+
 </div>
 
-
-
-
-<center>
-  <form className="form">
-  
-    <label for="nome">Name:</label>
-    
-      <input type="text" className="infos" id="nome" name="nome"></input>
-    <div className="mario"></div>
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email"></input>
-
-      
-      <button type="reset" id="limpar">Clear</button></form>
-</center>
+     </center>
 </>
 
 

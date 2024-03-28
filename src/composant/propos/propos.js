@@ -15,14 +15,13 @@ function propos() {
         <div className="movie-info">
             <h2>À Propos</h2>
             <img src="./img/ada.jpg" />
-            <h3>Super Mario Bros</h3>
-            <p>Dos hermanos plomeros, Mario y Luigi, caen por las alcantarillas y llegan a un mundo subterráneo mágico en el que deben enfrentarse al malvado Bowser para rescatar a la princesa Peach, quien ha sido forzada a aceptar casarse con él.</p>
-            <div className="rating">★★★★☆ 4/5</div>
-            <div className="director"><span>Director:</span> Aaron Horvath</div>
-            <div className="cast"><span>Reparto:</span> Anya Taylor-Joy, Jack Black,Chris Pratt,  Chris Pratt</div>
-            <div className="genre"><span>Género:</span> Acción, Aventura, Comedia</div>
-            <div className="release-date"><span>Fecha de lanzamiento:</span>5 de abril de 2023</div>
-            <div className="recommendation">93%</div>
+            <hr></hr>
+            <p>L'école d'informatique inclusive à la pédagogie alternative. Deviens développeuse ou développeur grâce à une méthode d'apprentissage de l'informatique pensée pour l'émancipation d'une génération qui veut agir !</p>
+            <div className="rating">★★★★★</div>
+            <div className="director"><span>Fondatrice :</span> Chloé Hermary</div>
+            <div className="cast"><span>Création :</span> Janvier 2019</div>
+            <div className="genre"><span>Campus :</span> Paris, Nantes, Lyon</div>
+            <div className="recommendation">★</div>
         </div>
     </div>
 
@@ -32,14 +31,15 @@ function propos() {
         <div className="movie-info">
             <h2>À Propos</h2>
             <img src="..." />
-            <h3>Super Mario Bros</h3>
-            <p>Dos hermanos plomeros, Mario y Luigi, caen por las alcantarillas y llegan a un mundo subterráneo mágico en el que deben enfrentarse al malvado Bowser para rescatar a la princesa Peach, quien ha sido forzada a aceptar casarse con él.</p>
-            <div className="rating">★★★★☆ 4/5</div>
-            <div className="director"><span>Director:</span> Aaron Horvath</div>
-            <div className="cast"><span>Reparto:</span> Anya Taylor-Joy, Jack Black,Chris Pratt,  Chris Pratt</div>
-            <div className="genre"><span>Género:</span> Acción, Aventura, Comedia</div>
-            <div className="release-date"><span>Fecha de lanzamiento:</span>5 de abril de 2023</div>
-            <div className="recommendation">93%</div>
+            <hr></hr>
+            <p>Salut ! C'est moi, Sabri. Après avoir obtenu mon bac et fait une année sabbatique, j'ai décidé de reprendre mes études pour enfin faire ce que j'aime : coder. Actuellement, je suis engagé dans un processus de reconversion chez Ada Tech School. Cette expérience m'offre l'opportunité d'approfondir mes compétences.
+               <br></br>Avant de rejoindre cette école, j'ai toujours fait beaucoup de choses seul, c'est-à-dire en tant qu'autodidacte dans la création de sites web. Cela m'a permis d'explorer les bases du développement ainsi que de l'UI/UX.
+               <br></br>Finalement, j'ai décidé de poursuivre ma croissance dans cette école, qui représente pour moi une opportunité exceptionnelle de me développer.
+               <br></br>Mes passions sont la photographie, le codage, la découverte du monde à travers les voyages, l'écriture, et profiter de chaque instant !</p>
+
+            <div className="rating">★★★★★</div>
+            <div className="director"><span>Passions :</span> Coder, photographie, sortir, écrire..</div>
+            <div className="recommendation">★</div>
         </div>
     </div>
 
