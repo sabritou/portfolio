@@ -33,10 +33,11 @@
     padding: 40px;
     background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px;
+    margin-top: 1rem;
 }
 
 .movie-info h2 {
-    margin-top: 0;
+    margin-bottom: 2rem;
     color: #ffffff; 
     font-size: 3em;
      

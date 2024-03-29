@@ -8,7 +8,7 @@
 nav{
     width: 100%;
     margin: 0px auto 40px auto;
-    background-color: rgb(192, 4, 4);
+    background-color:rgba(176, 6, 6, 0.85);
     top: 0px;
    
 }
@@ -21,7 +21,7 @@ nav li{
     float: left;
     width: 25%;/*100% divisé par le nombre d'éléments de menu*/
     text-align: center;/*Centre le texte dans les éléments de menu*/
-    
+    font-size: 20px;
 }
 
 

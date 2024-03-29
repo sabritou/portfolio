@@ -10,6 +10,7 @@
   padding: 200px;
   width: 300px;
   margin: 50px auto;
+  border: 1rem solid rgba(255, 220, 246, 0.487);
 }
 
 label {

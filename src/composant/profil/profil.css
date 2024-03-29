@@ -1,7 +1,7 @@
 .profil {
     font-size: 22px;
-    background-color: rgb(206, 224, 235);
+    background-color: #fcd0a1;
     border-radius: 1rem;
     padding: 100px;
-    border: 1rem solid rgb(171, 207, 255);
+    border: 1rem solid rgba(255, 220, 246, 0.487);
 }
