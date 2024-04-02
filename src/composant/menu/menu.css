@@ -19,8 +19,8 @@ nav ul{
 
 nav li{
     float: left;
-    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
-    text-align: center;/*Centre le texte dans les éléments de menu*/
+    width: 25%;
+    text-align: center;
     font-size: 20px;
 }
 
@@ -35,8 +35,8 @@ nav a{
     display: block;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-    padding: 15px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    border-bottom: 2px solid transparent;
+    padding: 15px 0px;
     
 }
 

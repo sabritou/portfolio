@@ -1,7 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
 
 
-
 .box {
 	background-color: #fcd0a1;
 	border-radius: 60px;
@@ -43,6 +42,7 @@ button:hover {
 }
 
 .mario {
+
   width: 5px;
   height: 5px;
   position: relative;

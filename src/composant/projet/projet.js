@@ -54,7 +54,7 @@ Mon portfolio est conçu sur le thème de Mario, l'univers emblématique du jeu 
             <img src="./img/extensionnav.jpg"/>
             </div>
             <hr></hr>
-            <p>Ce projet vise à développer une extension pour navigateur, en se concentrant sur le langage JavaScript et en utilisant Chrome comme navigateur cible. Les extensions de navigateur ajoutent des fonctionnalités supplémentaires aux navigateurs web existants. Les objectifs pédagogiques incluent la découverte de l'écosystème d'un navigateur, l'exploration de JavaScript et l'apprentissage de la création d'extensions en utilisant HTML, CSS et JavaScript. Nous avont eu l'occasion de manipuler des API et de développer leurs propres fonctionnalités, tout en s'organisant en équipe pour diviser le travail et utiliser des outils de suivi de projet pour communiquer et suivre les progrès.</p>
+            <p>Ce projet vise à développer une extension pour navigateur en effet notre projet était pour but de prise de note rapide et enregistré sous forme de liste en se concentrant sur le langage JavaScript et en utilisant Chrome comme navigateur cible. L'exploration de JavaScript et l'apprentissage de la création d'extensions en utilisant HTML, CSS et JavaScript. Nous avont eu l'occasion de manipuler des API et de développer leurs propres fonctionnalités, tout en s'organisant en équipe pour diviser le travail et utiliser des outils de suivi de projet pour communiquer et suivre les progrès.</p>
             <div className="rating">Javascript</div>
         </div>
     </div>
@@ -67,7 +67,7 @@ Mon portfolio est conçu sur le thème de Mario, l'univers emblématique du jeu 
             <img src="./img/dataviz.png"/>
             </div>
             <hr></hr>
-            <p>Ce projet consiste à développer une application web pour visualiser des données de manière dynamique. Les participants ont le choix entre plusieurs options, dont la création d'une animation basée sur l'heure actuelle ou la connexion à une API externe pour obtenir des données en temps réel. Les objectifs pédagogiques comprennent l'apprentissage du traitement de données en temps réel, l'exploration des animations web et la gestion des choix d'architecture de l'application.</p>
+            <p>Ce projet consiste à développer une application web pour visualiser des données de manière dynamique. Les participants ont le choix entre plusieurs options, dont la création d'une animation basée sur l'heure actuelle ou la connexion à une API externe pour obtenir des données en temps réels. Notre projet était sur la météo données en temps réels de plus notre application web était faite de nos mains ainsi nous avions que à apporter l'api en javascript.</p>
             <div className="rating">HTML CSS / API </div>
         </div>
     </div>
@@ -80,7 +80,7 @@ Mon portfolio est conçu sur le thème de Mario, l'univers emblématique du jeu 
             <img src="./img/pico8.jpg"/>
             </div>
             <hr></hr>
-            <p>Pico-8 est une console virtuelle pour créer des jeux rétro. Ce projet vous invite à développer un jeu complet en équipe, en utilisant le moteur Pico-8 et le langage Lua. Vous explorerez divers aspects du développement de jeux 2D, de la gestion de la boucle de jeu aux collisions en passant par l'animation et les interactions. Le thème choisi pour ce projet est axé sur les valeurs LGBT+ et le féminisme, offrant ainsi une expérience de jeu inclusive et engagée</p>
+            <p>Pico-8 est une console virtuelle pour créer des jeux rétro en utilisant le moteur Pico-8 et le langage Lua. Vous explorerez divers aspects du développement de jeux 2D, de la gestion de la boucle de jeu aux collisions en passant par l'animation et les interactions. Le thème choisi pour ce projet est axé sur les valeurs LGBT+ et le féminisme, offrant ainsi une expérience de jeu inclusive et engagée</p>
             <div className="rating">LUA</div>
         </div>
     </div>
