@@ -2,15 +2,12 @@
 
 
 
-
-
 .box {
-  background-color: #fcd0a1;
-  border-radius: 10px;
-  padding: 200px;
-  width: 300px;
-  margin: 50px auto;
-  border: 1rem solid rgba(255, 220, 246, 0.487);
+	background-color: #fcd0a1;
+	border-radius: 60px;
+	padding: 140px;
+	margin: 50px auto;
+	border: 1rem solid rgba(255, 220, 246, 0.487);
 }
 
 label {

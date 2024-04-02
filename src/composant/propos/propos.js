@@ -17,7 +17,9 @@ function propos() {
             <div className="director"><span>Fondatrice :</span> Chloé Hermary</div>
             <div className="cast"><span>Création :</span> Janvier 2019</div>
             <div className="genre"><span>Campus :</span> Paris, Nantes, Lyon</div>
-            <div className="recommendation">★</div>
+            <a href="https://adatechschool.fr/ecole/"  target="_blank" rel="noopener noreferrer">
+      <button className="learn-more">En savoir plus</button>
+      </a>
         </div>
     </div>
 
