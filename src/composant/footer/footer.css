@@ -7,9 +7,9 @@
 
 
     padding:40px 0;
-    background-color:rgba(176, 6, 6, 0.85);
+    background-image: url("/public/img/backgroundmario.jpeg");
     color:#ffffff;
-    margin-top: 20rem;
+    margin-top: 23rem;
   }
   
   .footer ul {
