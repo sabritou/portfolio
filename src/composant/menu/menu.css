@@ -18,10 +18,14 @@ nav ul{
 }
 
 nav li{
-    float: left;
-    width: 25%;
-    text-align: center;
-    font-size: 20px;
+        float: left; /* effet flottant */
+        text-decoration: none; /* pas d'héritage avec effet souligné */
+        transition: .5s; /* temps de transition lors du hover : une demi seconde */
+        font-size: 20px;
+        text-align: center ;
+        display: inline ;
+        margin-right: 5rem ;
+       
 }
 
 
@@ -34,9 +38,10 @@ nav ul::after{
 nav a{
     display: block;
     text-decoration: none;
-    color: #ffc5dd;
+    color: #ffffff;
     border-bottom: 2px solid transparent;
     padding: 15px 0px;
+    font-weight: bolder;
     
     
 }
@@ -47,7 +52,3 @@ nav a:hover{
     background: hsl(0, 100%, 50%);
 }
 
-.conteneur{
-  margin: 0px 20px;
-  height: 1500px;
-}
