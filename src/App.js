@@ -15,6 +15,7 @@ function App() {
        <div>
     <BrowserRouter>
     <Menu />
+    
       <Routes>
       <Route path='/profil' element={<Profil/>} />        
 
@@ -24,7 +25,12 @@ function App() {
         
       <Route path='/propos' element={<Propos/>} />        
 
+
       </Routes>
+      <Routes>
+          <Route path="/" exact element={<Profil />} />
+         
+        </Routes>
     </BrowserRouter>
    
       </div>

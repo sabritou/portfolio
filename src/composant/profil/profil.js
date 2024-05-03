@@ -3,7 +3,7 @@ import React from "react";
 import "./profil.css"
 import Button from "../button/button";
 import Competance from "../competance/competance";
-
+import { Carousel } from "react-responsive-carousel";
 
 function profil() {
   return (
@@ -25,7 +25,7 @@ function profil() {
     
     <Competance></Competance>
     </center> 
-  
+  <Carousel></Carousel>
   
    
 </>
