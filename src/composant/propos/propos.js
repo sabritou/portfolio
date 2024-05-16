@@ -20,6 +20,7 @@ function propos() {
 
             <div className="rating">★★★★★</div>
             <div className="director"><span>Passions :</span> Coder, photographie, sortir, écrire..</div>
+            <div className="director"><span>Stack / Tech :</span> Js, HTML, CSS, Reactjs / Git, Notion, Scrum</div>
             <div className="recommendation">★</div>
         </div>
     </div>

@@ -72,11 +72,11 @@ button {
    button.buttonxp {
     background: rgb(178, 39, 39);
     color: white;
-    margin-left: 8rem;
+    margin-left: 12rem;
    }
 
    button.buttonxp:hover {
     background: rgb(178, 39, 39);
     color: white;
-    margin-left: 8rem;
+    margin-left: 12rem;
    }
