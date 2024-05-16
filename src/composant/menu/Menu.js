@@ -7,10 +7,10 @@ function Menu() {
     <nav>
        <ul>
           <li>
-             <Link to="/profil">Home</Link>
+             <Link to="/profil">Accueil</Link>
           </li>
           <li>
-             <Link to="/propos">à propos</Link>
+             <Link to="/propos">À propos</Link>
           </li>
           <li>
              <Link to="/projet">Projet</Link>

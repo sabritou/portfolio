@@ -68,3 +68,15 @@ button {
     -webkit-transform: translate3d(0, 0, -1em);
     transform: translate3d(0, 0, -1em);
    }
+
+   button.buttonxp {
+    background: rgb(178, 39, 39);
+    color: white;
+    margin-left: 8rem;
+   }
+
+   button.buttonxp:hover {
+    background: rgb(178, 39, 39);
+    color: white;
+    margin-left: 8rem;
+   }

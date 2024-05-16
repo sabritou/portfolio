@@ -7,25 +7,9 @@ function propos() {
 
         <>
 
+
+
     <div className="container">
-        <div className="movie-info">
-            <h2>À Propos</h2>
-            <img src="./img/ada.png"/>
-            <hr></hr>
-            <p>L'école d'informatique inclusive à la pédagogie alternative. Deviens développeuse ou développeur grâce à une méthode d'apprentissage de l'informatique pensée pour l'émancipation d'une génération qui veut agir !</p>
-            <div className="rating">★★★★★</div>
-            <div className="director"><span>Fondatrice :</span> Chloé Hermary</div>
-            <div className="cast"><span>Création :</span> Janvier 2019</div>
-            <div className="genre"><span>Campus :</span> Paris, Nantes, Lyon</div>
-            <a href="https://adatechschool.fr/ecole/"  target="_blank" rel="noopener noreferrer">
-      <button className="learn-more">En savoir plus</button>
-      </a>
-        </div>
-    </div>
-
-
-
-    <div className="container2">
         <div className="movie-info">
             <h2>À Propos de moi !</h2>
             <hr></hr>
@@ -39,6 +23,29 @@ function propos() {
             <div className="recommendation">★</div>
         </div>
     </div>
+
+
+    <div className="container2">
+        <div className="movie-info">
+            <h2>Mon expérience professionnelle</h2>
+            <img src="./img/ada.png"/>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaCDvgzVp4IndgwpfBRHEz6DmlcaFX9jT6r7W9axe6nA&s"/>
+
+            <hr></hr>
+            <a href="https://adatechschool.fr/ecole/"  target="_blank" rel="noopener noreferrer">
+      <button className="learn-more">En savoir plus</button>
+      </a>
+
+      <button className="learn-more buttonxp">Préparateur commande drive, relation client</button>
+      
+      
+        </div>
+    </div>
+
+
+
+    
 
 
         
