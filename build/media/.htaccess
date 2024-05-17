@@ -1,4 +1,0 @@
-AddType audio/ogg .oga
-AddType video/ogg .ogv
-AddType application/ogg .ogg
-AddType audio/mpeg .mp3
