@@ -1,5 +1,4 @@
 {
-  "homepage": "https://sabritou.github.io/portfolio/",
   "name": "portfolio",
   "version": "1.05",
   "private": true,
@@ -7,7 +6,6 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-audio-player": "^0.17.0",
     "react-dom": "^18.2.0",
