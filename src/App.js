@@ -17,11 +17,11 @@ function App() {
     <Menu />
     
       <Routes>
-      <Route path='/profil' element={<Profil/>} />        
+      <Route path='/#/profil' element={<Profil/>} />        
 
       <Route path='/contact' element={<Contact/>} />        
 
-      <Route path='/projet' element={<Projet/>} />        
+      <Route path='/#/projet' element={<Projet/>} />        
         
       <Route path='/propos' element={<Propos/>} />        
 
