@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter , Routes, Route, HashRouter} from 'react-router-dom';
+import { Routes, Route, HashRouter} from 'react-router-dom';
 
 import Menu from "./composant/menu/Menu";
 import Footer from './composant/footer/footer';
@@ -13,7 +13,7 @@ function App() {
     return (
     <div>
        <div>
-    <HashRouter basename='/'>
+    <HashRouter>
     <Menu />
     
       <Routes>
