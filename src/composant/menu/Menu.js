@@ -7,16 +7,16 @@ function Menu() {
     <nav>
        <ul>
           <li>
-             <Link to="#/profil">Accueil</Link>
+             <Link to="/profil">Accueil</Link>
           </li>
           <li>
-             <Link to="#/propos">À propos</Link>
+             <Link to="/propos">À propos</Link>
           </li>
           <li>
-             <Link to="#/projet">Projet</Link>
+             <Link to="/projet">Projet</Link>
           </li>
           <li>
-             <Link to="#/contact">Contact</Link>
+             <Link to="/contact">Contact</Link>
           </li>
        </ul>
  </nav>

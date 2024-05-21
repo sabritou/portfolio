@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter , Routes, Route} from 'react-router-dom';
+import { BrowserRouter , Routes, Route, HashRouter} from 'react-router-dom';
 
 import Menu from "./composant/menu/Menu";
 import Footer from './composant/footer/footer';
@@ -13,7 +13,7 @@ function App() {
     return (
     <div>
        <div>
-    <BrowserRouter>
+    <HashRouter basename='/'>
     <Menu />
     
       <Routes>
@@ -29,7 +29,7 @@ function App() {
     
 
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
    
       </div>
       
