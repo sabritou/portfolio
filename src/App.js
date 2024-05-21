@@ -25,10 +25,7 @@ function App() {
         
       <Route path='/propos' element={<Propos/>} />        
 
-
-      </Routes>
-      <Routes>
-          <Route path="/" exact element={<Profil />} />
+     <Route path="/" exact element={<Profil />} />
          
         </Routes>
     </BrowserRouter>
