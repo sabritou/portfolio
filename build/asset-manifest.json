@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.32a266d7.css",
-    "main.js": "./static/js/main.20c47863.js",
-    "static/js/453.1407b060.chunk.js": "./static/js/453.1407b060.chunk.js",
-    "static/media/mario5.png": "./static/media/mario5.d72358ad370b3eb2d84c.png",
-    "static/media/mario6.jpg": "./static/media/mario6.f7f653810e1467515f68.jpg",
-    "static/media/mario2.jpg": "./static/media/mario2.8755ca7f258b719d1433.jpg",
-    "static/media/motifmario.jpg": "./static/media/motifmario.92125ec29b02bde2143d.jpg",
-    "static/media/mario4.png": "./static/media/mario4.863a126592e7932312b1.png",
-    "static/media/mario.jpg": "./static/media/mario.ee82005c0ef06dd7e17d.jpg",
-    "static/media/mario3.png.avif": "./static/media/mario3.png.fc6ac1b8e21689525e1a.avif",
-    "index.html": "./index.html",
-    "main.32a266d7.css.map": "./static/css/main.32a266d7.css.map",
-    "main.20c47863.js.map": "./static/js/main.20c47863.js.map",
-    "453.1407b060.chunk.js.map": "./static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.32a266d7.css",
+    "main.js": "/static/js/main.a478a146.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/mario5.png": "/static/media/mario5.d72358ad370b3eb2d84c.png",
+    "static/media/mario6.jpg": "/static/media/mario6.f7f653810e1467515f68.jpg",
+    "static/media/mario2.jpg": "/static/media/mario2.8755ca7f258b719d1433.jpg",
+    "static/media/motifmario.jpg": "/static/media/motifmario.92125ec29b02bde2143d.jpg",
+    "static/media/mario4.png": "/static/media/mario4.863a126592e7932312b1.png",
+    "static/media/mario.jpg": "/static/media/mario.ee82005c0ef06dd7e17d.jpg",
+    "static/media/mario3.png.avif": "/static/media/mario3.png.fc6ac1b8e21689525e1a.avif",
+    "index.html": "/index.html",
+    "main.32a266d7.css.map": "/static/css/main.32a266d7.css.map",
+    "main.a478a146.js.map": "/static/js/main.a478a146.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32a266d7.css",
-    "static/js/main.20c47863.js"
+    "static/js/main.a478a146.js"
   ]
 }
