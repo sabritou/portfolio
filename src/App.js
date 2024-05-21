@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter , Routes, Route, Navigate} from 'react-router-dom';
+import { BrowserRouter , Routes, Route} from 'react-router-dom';
 
 import Menu from "./composant/menu/Menu";
 import Footer from './composant/footer/footer';
@@ -27,8 +27,6 @@ function App() {
 
      <Route path="/" exact element={<Profil />} />
     
-     
-    <Route path="*" element={<Navigate to="/" />} />
 
         </Routes>
     </BrowserRouter>
