@@ -18,10 +18,10 @@ function propos() {
                <br></br>Finalement, j'ai décidé de poursuivre ma croissance dans cette école, qui représente pour moi une opportunité exceptionnelle de me développer.
                <br></br>Mes passions sont la photographie, le codage, la découverte du monde à travers les voyages, l'écriture, et profiter de chaque instant !</p>
 
-            <div className="rating">★★★★★</div>
-            <div className="director"><span>Passions :</span> Coder, photographie, sortir, écrire..</div>
+           
+            <div className="director"><span>Passions :</span> Coder, photographie, lecture.</div>
             <div className="director"><span>Stack / Tech :</span> Js, HTML, CSS, Reactjs / Git, Notion, Scrum</div>
-            <div className="recommendation">★</div>
+           
         </div>
     </div>
 
@@ -29,10 +29,11 @@ function propos() {
     <div className="container2">
         <div className="movie-info">
             <h2>Mon expérience professionnelle</h2>
+            <div className='movie-img'>
             <img src="./img/ada.png"/>
-
+</div><div className='movie-img'>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaCDvgzVp4IndgwpfBRHEz6DmlcaFX9jT6r7W9axe6nA&s"/>
-
+</div>
             <hr></hr>
             <a href="https://adatechschool.fr/ecole/"  target="_blank" rel="noopener noreferrer">
       <button className="learn-more">En savoir plus</button>

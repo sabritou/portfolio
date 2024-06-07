@@ -2,11 +2,11 @@
 
 
 .box {
-	background-color: #fcd0a1;
+	background-color: black;
 	border-radius: 60px;
 	padding: 140px;
 	margin: 50px auto;
-	border: 1rem solid rgba(255, 220, 246, 0.487);
+  border: 1rem solid rgba(244, 212, 255, 0.8);
 }
 
 label {

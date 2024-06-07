@@ -7,6 +7,8 @@ import "./projet.css"
 function projet() {
     return (
     <>
+
+<div className="projects-container">
         <div className="cont">
         <div className="movie-info">
             <h2>Portfolio Thème Mario Remastered</h2>
@@ -24,7 +26,7 @@ Mon portfolio est conçu sur le thème de Mario, l'univers emblématique du jeu 
     </div>
 
 
-    <div className="cont2">
+    <div className="cont">
         <div className="movie-info">
             <h2>Plateforme de vente de meubles</h2>
             <div className='photo'>
@@ -37,7 +39,7 @@ Mon portfolio est conçu sur le thème de Mario, l'univers emblématique du jeu 
     </div>
 
 
-    <div className="cont3">
+    <div className="cont">
         <div className="movie-info">
             <h2>Résaux social PHP</h2>
             <div className='photo'>
@@ -50,7 +52,7 @@ Mon portfolio est conçu sur le thème de Mario, l'univers emblématique du jeu 
     </div>
 
 
-    <div className="cont4">
+    <div className="cont">
         <div className="movie-info">
             <h2>Extension de navigateur</h2>
             <div className='photo'>
@@ -63,31 +65,31 @@ Mon portfolio est conçu sur le thème de Mario, l'univers emblématique du jeu 
     </div>
 
 
-    <div className="cont5">
+    <div className="cont">
         <div className="movie-info">
             <h2>Dataviz</h2>
             <div className='photo'>
             <img src="./img/dataviz.png"/>
             </div>
             <hr></hr>
-            <p>Ce projet consiste à développer une application web pour visualiser des données de manière dynamique. Les participants ont le choix entre plusieurs options, dont la création d'une animation basée sur l'heure actuelle ou la connexion à une API externe pour obtenir des données en temps réels. Notre projet était sur la météo données en temps réels de plus notre application web était faite de nos mains ainsi nous avions que à apporter l'api en javascript.</p>
+            <p>Ce projet consiste à développer une application web pour visualiser des données de manière dynamique. Les participants ont le choix entre plusieurs options, dont la création d'une animation basée sur l'heure actuelle ou la connexion à une API externe pour obtenir des données en temps réels. Notre projet était sur la météo données en temps réels de plus notre application web était faite de nos mains ainsi nous avions que à apporter l'api en javascript.  </p>
             <div className="rating">HTML CSS / API </div>
         </div>
     </div>
 
 
-    <div className="cont6">
+    <div className="cont">
         <div className="movie-info">
             <h2>Pico-8</h2>
             <div className='photo'>
             <img src="./img/pico8.jpg"/>
             </div>
             <hr></hr>
-            <p>Pico-8 est une console virtuelle pour créer des jeux rétro en utilisant le moteur Pico-8 et le langage Lua. Vous explorerez divers aspects du développement de jeux 2D, de la gestion de la boucle de jeu aux collisions en passant par l'animation et les interactions. Le thème choisi pour ce projet est axé sur les valeurs LGBT+ et le féminisme, offrant ainsi une expérience de jeu inclusive et engagée</p>
+            <p>Pico-8 est une console virtuelle pour créer des jeux rétro en utilisant le moteur Pico-8 et le langage Lua. Vous explorerez divers aspects du développement de jeux 2D, de la gestion de la boucle de jeu aux collisions en passant par l'animation et les interactions. Le thème choisi pour ce projet est axé sur les valeurs LGBT+ et le féminisme, offrant ainsi une expérience de jeu inclusive et engagée.  </p>
             <div className="rating">LUA</div>
         </div>
-    </div>
-
+    </div> 
+</div>
     </>
     )
 }

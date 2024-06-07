@@ -1,9 +1,10 @@
 .profil {
     font-size: 22px;
-    background-color: #fcd0a1;
+	background-color: black;
     border-radius: 1rem;
     padding: 100px;
-    border: 1rem solid rgba(255, 220, 246, 0.487);
+    border: 1rem solid rgba(244, 212, 255, 0.8);
+    
 }
 
 .mariogif {
@@ -11,3 +12,6 @@
 }
 
 
+h1,h3,h4{
+    color: white;
+}

@@ -1,98 +1,22 @@
 
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem
+}
+
 .cont {
+    flex: 1;
     
-    width: 85rem;
-    margin-bottom: 5rem;
-    margin-left: 13rem;
     color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     font-family: 'Arial', sans-serif; 
-	background-image: url(/public/img/mario.jpg);
+	background-color: black;
 	background-size: cover;
     background-position: center;
 }
-
-.cont2{
-    width: 85rem;
-    margin-bottom: 5rem;
-    margin-left: 13rem;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    font-family: 'Arial', sans-serif; 
-    background-image: url(/public/img/mario2.jpg);
-	background-size: cover;
-    background-position: center;
-
-}    
-
-.cont3{
-    width: 85rem;
-    margin-bottom: 5rem;
-    margin-left: 13rem;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    font-family: 'Arial', sans-serif; 
-    background-image: url(/public/img/mario3.png.avif);
-	background-size: cover;
-    background-position: center;
-
-}    
-
-.cont4{
-    width: 85rem;
-    margin-bottom: 5rem;
-    margin-left: 13rem;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    font-family: 'Arial', sans-serif; 
-    background-image: url(/public/img/mario4.png);
-	background-size: cover;
-    background-position: center;
-
-}    
-
-.cont5{
-    width: 85rem;
-    margin-bottom: 5rem;
-    margin-left: 13rem;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    font-family: 'Arial', sans-serif; 
-    background-image: url(/public/img/mario5.png);
-	background-size: cover;
-    background-position: center;
-
-}    
-
-.cont6{
-    width: 85rem;
-    margin-bottom: 5rem;
-    margin-left: 13rem;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    font-family: 'Arial', sans-serif; 
-    background-image: url(/public/img/mario6.jpg);
-	background-size: cover;
-    background-position: center;
-
-}    
-
-
-
-
-
 
 .movie-info {
     position: relative;
@@ -114,7 +38,6 @@
 .movie-info p {
     line-height: 1.6;
     overflow: auto; 
-    height: 100px; 
     background-color: rgba(255, 255, 255, 0.1);
     border: none; 
     padding: 10px;
@@ -129,9 +52,6 @@
     color: #FFD700; 
 }
 
-.photo {
-    width : 155rem;
-}
 
 img
 {
