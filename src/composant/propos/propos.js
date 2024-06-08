@@ -35,10 +35,10 @@ function propos() {
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaCDvgzVp4IndgwpfBRHEz6DmlcaFX9jT6r7W9axe6nA&s"/>
 </div>
             <hr></hr>
-    <button className="learn-more">AdaTechschool développeurs web <div className="director"><span>Stack :</span> Cette école m’a appris beaucoup de choses surtout à approfondir mes connaissances dans le développement web, création du site web ce que je réalise le plus de la conception avec figma à la planification avec notion. 
+    <button className="learn-more">AdaTechschool développeurs web <div className="director"><span>School :</span> Cette école m’a appris beaucoup de choses surtout à approfondir mes connaissances dans le développement web, création du site web ce que je réalise le plus de la conception avec figma à la planification avec notion. 
     Chez Ada nous avons vu aussi les bonnes pratiques de programmations telles le clean code, les méthodes agiles et bien plus, la collaboration un sujet important, beaucoup de travaux en groupe qui ont mené à travailler la communication et l'organisation discuter de feature, se partager des taches et bien d'autres.</div>
 </button>
-      <button className="learn-more buttonxp">Préparateur commande drive, <div className="director"><span>Tech : </span> Cela a été le tout premier pas dans le monde du travail assez stressant au début mais avec le temps je me suis adapté j'ai appris de nouvelles choses telles que la relation client qui ma apporter et renforcer la confiance en soi, apprendre à servir le client, aider ainsi que de l'autonomie la réalisation de tâche seule telle que nettoyer, ranger, travailler proprement.</div>
+      <button className="learn-more buttonxp">Préparateur commande drive, <div className="director"><span></span> Cela a été le tout premier pas dans le monde du travail assez stressant au début mais avec le temps je me suis adapté j'ai appris de nouvelles choses telles que la relation client qui ma apporter et renforcer la confiance en soi, apprendre à servir le client, aider ainsi que de l'autonomie la réalisation de tâche seule telle que nettoyer, ranger, travailler proprement.</div>
       relation client</button>
       
       
