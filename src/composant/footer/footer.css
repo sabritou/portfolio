@@ -7,7 +7,7 @@
 
 
     padding:40px 0;
-    background-image: url("/public/img/mario2.jpg");
+    background-color: rgba(0, 0, 0, 0.808);    
     color:#ffffff;
     margin-top: 11rem;
   }

@@ -12,8 +12,8 @@ function profil() {
     <div className="profil">
     <h1>Salut c'est moi Sabri Kradaoui</h1>
     <hr></hr>
-    <h3>Développeur Fullstack</h3>
-    <h4>Développeur basé sur Lyon, France</h4>
+    <h3>Développeur Fullstack passioné par le développement Front-end, web</h3>
+    <h4>Développeur basé sur Lyon, France 📍</h4>
 
 
 
