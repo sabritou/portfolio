@@ -10,10 +10,10 @@ function profil() {
 <>
 
     <div className="profil">
-    <h1>Salut c'est moi Sabri K.</h1>
+    <h1>Salut c'est moi Sabri Kradaoui</h1>
     <hr></hr>
     <h3>Développeur Fullstack</h3>
-    <h4>Je cherche une alternance à partir de septembre 2024.</h4>
+    <h4>Développeur basé sur Lyon, France</h4>
 
 
 
@@ -24,7 +24,7 @@ function profil() {
     <center>
     
 
-<h1 className="mariogif" >It's-a me, Mario!</h1>
+<h1 className="mariogif" >It's-a me, Sabri !</h1>
 <img  src="https://media.tenor.com/UkvleU1dQK4AAAAi/2d-mario-running.gif" alt="mariogif"></img>
     
     <Competance></Competance>
