@@ -13,14 +13,17 @@ function propos() {
         <div className="movie-info">
             <h2>À Propos de moi !</h2>
             <hr></hr>
-            <p>Salut ! C'est moi, Sabri. Après avoir obtenu mon bac et fait une année sabbatique, j'ai décidé de reprendre mes études pour enfin faire ce que j'aime : coder. Actuellement, je suis engagé dans un processus de reconversion chez Ada Tech School. Cette expérience m'offre l'opportunité d'approfondir mes compétences.
-               <br></br>Avant de rejoindre cette école, j'ai toujours fait beaucoup de choses seul, c'est-à-dire en tant qu'autodidacte dans la création de sites web. Cela m'a permis d'explorer les bases du développement ainsi que de l'UI/UX.
-               <br></br>Finalement, j'ai décidé de poursuivre ma croissance dans cette école, qui représente pour moi une opportunité exceptionnelle de me développer.
-               <br></br>Mes passions sont la photographie, le codage, la découverte du monde à travers les voyages, l'écriture, et profiter de chaque instant !</p>
+            <p>Je suis passionné par le développement web et je me spécialise dans ce domaine d'informatique, explorer en profondeur les différentes facettes du développement web, en utilisant des méthodes pédagogiques innovantes.
+
+     J'ai eu l'occasion d'apprendre à réaliser un site web en React.js, de découvrir de nouveaux langages et ainsi pouvoir découvrir plus au fil du temp.
+
+Mon expérience en tant qu'autodidacte dans la création de sites web ma permis d'explorer les bases du développements et d'approfondir mes connaissances dans HTML5 ainsi que UI/UX.
+<br></br>
+<br></br>
+Mon objectif ultime est de devenir un développeur web, capable de concevoir et de mettre en œuvre des solutions web performantes.</p>
 
            
             <div className="director"><span>Passions :</span> Coder, photographie, lecture.</div>
-            <div className="director"><span>Stack / Tech :</span> Js, HTML, CSS, Reactjs / Git, Notion, Scrum</div>
            
         </div>
     </div>

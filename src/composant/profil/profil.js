@@ -15,6 +15,7 @@ function profil() {
     <h3>Développeur Fullstack passioné par le développement Front-end, web</h3>
     <h4>Développeur basé sur Lyon, France 📍</h4>
 
+    <h1>Stack / Tech : Js, HTML, CSS, Reactjs / Git, Notion, Scrum</h1>
 
 
 <Button></Button>
