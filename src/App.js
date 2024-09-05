@@ -7,6 +7,7 @@ import Profil from './composant/profil/profil';
 import Contact from './composant/contact/contact';
 import Projet from './composant/projet/projet';
 import Propos from './composant/propos/propos';
+import Pro from './composant/pro/projetperso';
 
 
 function App() {
@@ -21,7 +22,10 @@ function App() {
 
       <Route path='/contact' element={<Contact/>} />        
 
-      <Route path='/projet' element={<Projet/>} />        
+      <Route path='/projet' element={<Projet/>} />     
+
+     <Route path='/pro' element={<Pro/>} />        
+   
         
       <Route path='/propos' element={<Propos/>} />        
 

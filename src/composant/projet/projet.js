@@ -17,7 +17,7 @@ function projet() {
             </div>
             <hr></hr>
             <p>
-Mon portfolio est conçu sur le thème de Mario, l'univers emblématique du jeu vidéo. Il met en valeur mes compétences et réalisations à travers des éléments visuels et interactifs inspirés de cet univers. Chaque section est représentée par un élément emblématique de Mario, offrant une expérience ludique et engageante aux visiteurs</p>
+Mon portfolio est conçu sur le thème de Mario moderniser. Il met en valeur mes compétences et réalisations.</p>
             <div className="rating">ReactJS</div>
             <a href="https://github.com/sabritou"  target="_blank" rel="noopener noreferrer">
       <button className="learn-more">En savoir plus projet / Github</button>

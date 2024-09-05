@@ -16,6 +16,9 @@ function Menu() {
              <Link to="/projet">Projet</Link>
           </li>
           <li>
+             <Link to="/pro">Projet Pro</Link>
+          </li>
+          <li>
              <Link to="/contact">Contact</Link>
           </li>
        </ul>
