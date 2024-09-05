@@ -24,10 +24,7 @@ function profil() {
     
     <center>
     
-
-<h1 className="mariogif" >It's-a me, Sabri !</h1>
-<img  src="https://media.tenor.com/UkvleU1dQK4AAAAi/2d-mario-running.gif" alt="mariogif"></img>
-    
+ 
     <Competance></Competance>
     </center> 
   <Carousel></Carousel>
