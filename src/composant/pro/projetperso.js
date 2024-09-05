@@ -37,7 +37,7 @@ function pro() {
             <img className='photo'src="./img/backgroundmario.jpeg"/>
             </div>
             <hr></hr>
-            <p>J'ai créé un communiqué de presse version journal pour vous donner un aperçu amusant  de notre entreprise et de nos projets. 
+            <p>J'ai créé un communiqué de presse version journal pour vous donner un aperçu amusant  de notre entreprise et de nos projets. Réalisations avec boostrap
             </p>
 
             <p>Le site web de LyCloud News est une vitrine numérique en suivant un thème du style magazine, les info ainsi ce site présente les services offerts par l'entreprise dans le domaine du développement web. Il fournit des informations sur les différents services proposés.</p>
