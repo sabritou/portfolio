@@ -10,16 +10,10 @@ function Menu() {
              <Link to="/profil">Accueil</Link>
           </li>
           <li>
-             <Link to="/propos">À propos</Link>
-          </li>
-          <li>
              <Link to="/projet">Projet</Link>
           </li>
           <li>
              <Link to="/pro">Projet Pro</Link>
-          </li>
-          <li>
-             <Link to="/contact">Contact</Link>
           </li>
        </ul>
  </nav>

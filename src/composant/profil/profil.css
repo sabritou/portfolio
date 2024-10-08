@@ -3,12 +3,98 @@
 	background-color: black;
     border-radius: 1rem;
     padding: 100px;
-    border: 1rem solid rgba(72, 72, 72, 0.76);
+   
+
+    box-shadow: 0px 0px 0px 2px rgb(151, 138, 248),
+    8px 8px 0px 0px rgb(30, 78, 254);
+
+    margin: 120px;
+}
+
+body{
+    background-color: black;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skill{
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: flex-start;
+transition: .3s;
+}
+
+.skills hr {
+outline: none;
+border: none;
+width: 50%;
+height: 8px;
+border-radius: 50px;
+background: linear-gradient(264deg,#c27cff -5.09%,#79c5ff 106.28%);
+margin: 0;
+}
+
+.skills p {
+    min-width: 130px;
+font-size: 20px;
+font-weight: 500;
+}
+
+.skills h4 {
+    min-width: 205px; 
+    margin: 0; 
     
 }
 
-.mariogif {
-    color: rgb(155, 32, 32);
+h3 {
+    font-size: 24px; 
+    display: inline; 
+}
+
+h3 span {
+    font-size: 32px; 
+    font-weight: bold; 
+    margin-left: 10px; 
+    
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(264deg,#c27cff -5.09%,#79c5ff 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    font-size: 32px; 
+    font-weight: bold; 
+    margin-left: 10px; 
+    
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(264deg,#c27cff -5.09%,#79c5ff 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.contactdetails{
+display: flex;
+flex-direction: column;
+gap: 25px;
+color: #d8d8d8;
+font-size: 22px;
+}
+
+.contact{
+align-items: center;
+gap: 18px;
+margin: 20px;
 }
 
 

@@ -8,7 +8,6 @@
 nav{
     
     margin: 0px auto 40px auto;
-    background-color: rgba(0, 0, 0, 0.808);    
     top: 0px;
    
 }
@@ -49,7 +48,7 @@ nav a{
 nav a:hover{
     color: rgb(255, 255, 255);
    
-    background: hsl(0, 100%, 50%);
+
 
 }
 
@@ -73,6 +72,5 @@ nav a {
 
 nav a:hover {
 	color: white;
-	background-color: red;
 	}
 

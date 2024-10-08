@@ -8,10 +8,16 @@ button {
     text-decoration: none;
     font-family: inherit;
     margin-top: 5rem;
+    margin-bottom: 5rem;
+   
+
    }
+
+
    
    button.learn-more {
     color: #382b22;
+    font-size: 20px;
     padding: 1.25em 2em;
     background: #fff0f0;
     border: 2px solid #b18597;
