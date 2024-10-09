@@ -25,17 +25,19 @@ function projet() {
 <img className='photo' src="./img/portfolio.png"/>
 </a>
 
-<a href="https://sabritou.github.io/lycloudnews/">
-<img className='photo' src="./img/lynews.mp4"/>
-</a>
 
-<a href="https://github.com/sabritou/r-sauxsocial.php">
-<img className='photo' src="./img/resauc.mp4"/>
-</a>
+<video width="100%"  height="auto" controls>
+    <source src="./img/lynews.mp4" type="video/mp4"/>
+  </video>
 
-<a href="https://sabritou.github.io/LyCloudAgencyOfficiel/">
-<img className='photo' src="./img/lycloud.mp4"/>
-</a>
+
+<video width="100%"  height="auto" controls>
+    <source src="./img/resauc.mp4" type="video/mp4"/>
+  </video>
+
+<video width="100%"  height="auto" controls>
+    <source src="./img/lycloud.mp4" type="video/mp4"/>
+  </video>
 
 <a href="https://github.com/sabritou/pico-8">
 <img className='photo' src="./img/pico8.jpg"/>
