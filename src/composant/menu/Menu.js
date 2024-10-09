@@ -12,9 +12,6 @@ function Menu() {
           <li>
              <Link to="/projet">Projet</Link>
           </li>
-          <li>
-             <Link to="/pro">Projet Pro</Link>
-          </li>
        </ul>
  </nav>
      

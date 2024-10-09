@@ -8,18 +8,50 @@ function projet() {
     return (
     <>
 
+<center>
+<a href="https://github.com/sabritou"  target="_blank" rel="noopener noreferrer">
+  <button className="button">Github / Projet Online</button>
+  </a>
+</center>
+
+<center>
+<h1>↓</h1>
+</center>
+
+
 <div className='grid'>
-<img src="/public/img/extensionnav.jpg" alt="" />
-<img src="/public/img/home.png" alt=""></img>
-<img src="/public/img/home.png" alt=""></img>
-<img src="/public/img/home.png" alt=""></img>
-<img src="/public/img/home.png" alt=""></img>
-<img src="/public/img/home.png" alt=""></img>
 
+<a href="https://portfoliomario.netlify.app/">
+<img className='photo' src="./img/portfolio.png"/>
+</a>
 
+<a href="https://sabritou.github.io/lycloudnews/">
+<img className='photo' src="./img/lynews.mp4"/>
+</a>
 
+<a href="https://github.com/sabritou/r-sauxsocial.php">
+<img className='photo' src="./img/resauc.mp4"/>
+</a>
 
+<a href="https://sabritou.github.io/LyCloudAgencyOfficiel/">
+<img className='photo' src="./img/lycloud.mp4"/>
+</a>
 
+<a href="https://github.com/sabritou/pico-8">
+<img className='photo' src="./img/pico8.jpg"/>
+</a>
+
+<a href="https://github.com/sabritou/dataviz">
+<img className='photo' src="./img/dataviz.png"/>
+</a>
+
+<a href="default.asp">
+<img className='photo' src="./img/extensionnav.jpg"/>
+</a>
+
+<a href="https://github.com/sabritou/plateforme-de-vente-de-meubles">
+<img className='photo' src="./img/platformemeuble.jpg"/>
+</a>
 
 </div>
 

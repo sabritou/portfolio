@@ -2,10 +2,36 @@
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 gap: 30px;
-margin: 15rem;
+margin: 5rem;
 }
 
 .grid img {
 width: 100%;
 cursor: pointer;
 }
+
+
+
+.button {
+    cursor: pointer;
+    font-size: large;
+    font-family: inherit;
+    font-weight: bold;
+    color: #0011ff;
+    background-color: #f8f8fd;
+    padding: 0.8em 2.2em;
+    border-radius: 50em;
+    border: 6px solid #8b93f8;
+    box-shadow: 0px 8px #1f35ff;
+
+    margin: 2rem;
+    margin-bottom: -2rem;
+    margin-top: 5rem;
+  }
+  .button:active {
+    position: relative;
+    top: 8px;
+    border: 6px solid #646fff;
+    box-shadow: 0px 0px;
+  }
+  

@@ -86,15 +86,15 @@ function profil() {
 
 
 <a href="https://github.com/sabritou"  target="_blank" rel="noopener noreferrer">
-  <button className="learn-more">Github</button>
+  <button className="button">Github</button>
   </a>
 
 <a href="https://www.linkedin.com/in/sabri-kradaoui-1a9405224/"  target="_blank" rel="noopener noreferrer">
-  <button className="learn-more">Linkedin</button>
+  <button className="button">Linkedin</button>
   </a>
   
 <a href="https://discord.gg/AkCfd4fFkE"  target="_blank" rel="noopener noreferrer">
-  <button className="learn-more">Discord</button>
+  <button className="button">Discord</button>
   </a>
 
 
