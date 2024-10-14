@@ -10,6 +10,8 @@ function profil() {
   return (
 <>
 
+
+
     <div className="profil">
     <h3>Salut c'est moi <span>Sabri Kradaoui</span></h3>
     <hr></hr>
@@ -106,3 +108,4 @@ function profil() {
 }
 
 export default profil;
+
