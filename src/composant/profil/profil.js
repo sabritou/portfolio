@@ -36,7 +36,7 @@ function profil() {
 
   <div className="skill"> <h4>Css :</h4>      <hr style={{ width: '44%' }} /></div>
   <div className="skill">   <h4>ReactJs :</h4>    <hr style={{ width: '30%' }} /></div>
-  <div className="skill"><h4>Git, Notion, Scrum</h4>     <hr style={{ width: '55%' }} /></div>
+  <div className="skill"><h4>Git, Notion, Scrum</h4>     <hr style={{ width: '54%' }} /></div>
    
    
       
