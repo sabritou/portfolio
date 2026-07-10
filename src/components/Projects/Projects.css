@@ -9,7 +9,7 @@
   padding: 7px 16px;
   border-radius: 100px;
   border: 1px solid var(--border);
-  background: transparent;
+  background: var(--white);
   color: var(--text-secondary);
   font-size: 0.85rem;
   font-weight: 500;
@@ -17,14 +17,14 @@
 }
 
 .projects__filter:hover {
-  border-color: var(--border-hover);
+  border-color: var(--text-primary);
   color: var(--text-primary);
 }
 
 .projects__filter--active {
-  background: var(--gradient);
-  border-color: transparent;
-  color: #fff;
+  background: var(--text-primary);
+  border-color: var(--text-primary);
+  color: var(--white);
 }
 
 .projects__grid {

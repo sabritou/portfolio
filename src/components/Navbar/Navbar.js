@@ -30,8 +30,7 @@ function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <nav className="navbar__inner">
         <a href="#accueil" className="navbar__logo" onClick={closeMenu}>
-          <span className="navbar__logo-dot" />
-          SK
+          Sabri<span className="navbar__logo-accent">.</span>
         </a>
 
         <ul className={`navbar__links ${menuOpen ? 'navbar__links--open' : ''}`}>

@@ -22,13 +22,14 @@
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  box-shadow: var(--shadow);
   text-align: left;
   transition: var(--transition);
 }
 
 a.contact__card:hover {
-  border-color: var(--accent-purple);
-  background: rgba(194, 124, 255, 0.06);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-lg);
   transform: translateY(-3px);
 }
 
@@ -36,11 +37,11 @@ a.contact__card:hover {
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  background: rgba(194, 124, 255, 0.1);
+  background: var(--accent-soft);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--accent-purple);
+  color: var(--accent);
   flex-shrink: 0;
 }
 
@@ -69,18 +70,19 @@ a.contact__card:hover {
   gap: 8px;
   padding: 10px 20px;
   border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
+  border-radius: 50px;
   font-size: 0.875rem;
   font-weight: 500;
   color: var(--text-secondary);
+  background: var(--white);
   transition: var(--transition);
 }
 
 .contact__social:hover {
-  border-color: var(--border-hover);
+  border-color: var(--text-primary);
   color: var(--text-primary);
-  background: var(--bg-card);
   transform: translateY(-2px);
+  box-shadow: var(--shadow);
 }
 
 @media (max-width: 600px) {

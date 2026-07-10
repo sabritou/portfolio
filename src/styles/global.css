@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -7,20 +7,23 @@
 }
 
 :root {
-  --bg-primary: #080810;
-  --bg-secondary: #0f0f1a;
-  --bg-card: rgba(255, 255, 255, 0.03);
-  --bg-card-hover: rgba(255, 255, 255, 0.06);
-  --border: rgba(255, 255, 255, 0.08);
-  --border-hover: rgba(255, 255, 255, 0.15);
-  --text-primary: #f0f0f5;
-  --text-secondary: #9494a8;
-  --text-muted: #5a5a72;
-  --accent-purple: #c27cff;
-  --accent-blue: #79c5ff;
-  --gradient: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
-  --gradient-text: linear-gradient(135deg, #c27cff 0%, #79c5ff 50%, #c27cff 100%);
-  --shadow-glow: 0 0 40px rgba(194, 124, 255, 0.15);
+  --white: #FFFFFF;
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #FAFAFA;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FAFAFA;
+  --border: #E5E7EB;
+  --border-hover: #D1D5DB;
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B7280;
+  --text-muted: #9CA3AF;
+  --accent: #E8435A;
+  --accent-soft: rgba(232, 67, 90, 0.08);
+  --gradient: linear-gradient(135deg, #E8435A, #FF6B6B);
+  --gradient-text: linear-gradient(135deg, #E8435A 0%, #FF6B6B 50%, #E8435A 100%);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 12px 48px rgba(0, 0, 0, 0.1);
+  --shadow-glow: 0 8px 32px rgba(232, 67, 90, 0.12);
   --radius: 16px;
   --radius-sm: 10px;
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -33,7 +36,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
@@ -41,20 +44,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 50% -20%, rgba(194, 124, 255, 0.12), transparent),
-    radial-gradient(ellipse 60% 40% at 80% 60%, rgba(121, 197, 255, 0.08), transparent);
-  pointer-events: none;
-  z-index: 0;
-}
-
 #root {
   position: relative;
-  z-index: 1;
 }
 
 a {
@@ -80,6 +71,13 @@ section {
   margin: 0 auto;
 }
 
+section.section--alt {
+  max-width: none;
+  background: var(--bg-secondary);
+  padding-left: max(24px, calc((100% - 1200px) / 2));
+  padding-right: max(24px, calc((100% - 1200px) / 2));
+}
+
 .section-label {
   display: inline-flex;
   align-items: center;
@@ -88,7 +86,7 @@ section {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--accent-purple);
+  color: var(--accent);
   margin-bottom: 16px;
 }
 
@@ -97,7 +95,7 @@ section {
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--gradient);
+  background: var(--accent);
   border-radius: 2px;
 }
 
@@ -107,6 +105,7 @@ section {
   letter-spacing: -0.03em;
   line-height: 1.15;
   margin-bottom: 16px;
+  color: var(--text-primary);
 }
 
 .section-subtitle {
@@ -120,8 +119,8 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 12px 24px;
-  border-radius: var(--radius-sm);
+  padding: 14px 28px;
+  border-radius: 50px;
   font-size: 0.925rem;
   font-weight: 600;
   transition: var(--transition);
@@ -129,26 +128,23 @@ section {
 }
 
 .btn-primary {
-  background: var(--gradient);
-  color: #fff;
-  box-shadow: 0 4px 20px rgba(194, 124, 255, 0.3);
+  background: var(--text-primary);
+  color: var(--white);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(194, 124, 255, 0.45);
+  box-shadow: var(--shadow-lg);
 }
 
 .btn-outline {
-  border: 1px solid var(--border-hover);
+  border: 1.5px solid var(--border);
   color: var(--text-primary);
-  background: var(--bg-card);
-  backdrop-filter: blur(10px);
+  background: transparent;
 }
 
 .btn-outline:hover {
-  border-color: var(--accent-purple);
-  background: rgba(194, 124, 255, 0.08);
+  border-color: var(--text-primary);
   transform: translateY(-2px);
 }
 
@@ -164,11 +160,6 @@ section {
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
   to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
 }
 
 @keyframes gradientShift {

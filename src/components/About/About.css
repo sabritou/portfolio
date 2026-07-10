@@ -10,13 +10,13 @@
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  box-shadow: var(--shadow);
   transition: var(--transition);
 }
 
 .about__card:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--border-hover);
   transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 .about__card-icon {

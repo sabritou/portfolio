@@ -9,7 +9,7 @@ export const projects = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/sabritou/Fruity',
     featured: true,
-    color: '#ff6b35',
+    color: '#E8435A',
   },
   {
     id: 'lycloud-agency',
@@ -112,14 +112,6 @@ export const projects = [
     github: 'https://github.com/sabritou/pico-8',
     image: img('pico8.jpg'),
     color: '#ec4899',
-  },
-  {
-    id: 'sabritou',
-    title: 'Sabritou',
-    description: 'Mon dépôt personnel GitHub — configurations, scripts et ressources diverses.',
-    tags: ['Git', 'Config'],
-    github: 'https://github.com/sabritou/sabritou',
-    color: '#64748b',
   },
 ];
 

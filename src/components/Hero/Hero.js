@@ -39,7 +39,7 @@ function Hero() {
 
         <div className="hero__stats">
           <div className="hero__stat">
-            <span className="hero__stat-number">12+</span>
+            <span className="hero__stat-number">11+</span>
             <span className="hero__stat-label">Projets GitHub</span>
           </div>
           <div className="hero__stat-divider" />

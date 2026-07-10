@@ -13,7 +13,7 @@ function Projects() {
     : projects.filter((p) => p.tags.includes(filter));
 
   return (
-    <section id="projets" className="projects">
+    <section id="projets" className="projects section--alt">
       <p className="section-label">Projets</p>
       <h2 className="section-title">Mes réalisations</h2>
       <p className="section-subtitle">
