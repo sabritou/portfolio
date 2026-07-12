@@ -1,39 +1,26 @@
-import React from 'react'
-import { Routes, Route, HashRouter} from 'react-router-dom';
-
-import Menu from "./composant/menu/Menu";
-import Footer from './composant/footer/footer';
-import Profil from './composant/profil/profil';
-import Projet from './composant/projet/projet';
-
-
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
-    return (
-    <div>
-       <div>
-    <HashRouter>
-    <Menu />
-    
-      <Routes>
-      <Route path='/profil' element={<Profil/>} />               
-
-      <Route path='/projet' element={<Projet/>} />     
-            
-
-     <Route path="/" exact element={<Profil />} />
-    
-
-        </Routes>
-    </HashRouter>
-   
-      </div>
-      
-      <Footer></Footer>
-    </div>
-
-    )
-    
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
