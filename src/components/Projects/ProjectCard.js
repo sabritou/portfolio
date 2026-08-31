@@ -27,6 +27,7 @@ function ProjectCard({ project }) {
           </div>
         )}
         {featured && <span className="project-card__badge">Featured</span>}
+        <span className="project-card__agency">LyCloud Agency</span>
         {!video && (
           <span className="project-card__no-video">Aperçu statique</span>
         )}

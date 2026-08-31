@@ -46,6 +46,23 @@
   opacity: 0.8;
 }
 
+.project-card__agency {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 100px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  z-index: 1;
+  pointer-events: none;
+  box-shadow: var(--shadow);
+}
+
 .project-card__badge {
   position: absolute;
   top: 12px;

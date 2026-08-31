@@ -16,8 +16,8 @@ function Hero() {
         </h1>
 
         <p className="hero__subtitle">
-          Développeur Fullstack passionné par le développement web et le front-end.
-          Basé à Lyon, je crée des expériences digitales modernes et performantes.
+          Développeur Fullstack et fondateur de LyCloud Agency, basé à Lyon.
+          Je crée des expériences digitales modernes pour mes clients et projets web.
         </p>
 
         <div className="hero__actions">
@@ -40,7 +40,7 @@ function Hero() {
         <div className="hero__stats">
           <div className="hero__stat">
             <span className="hero__stat-number">12+</span>
-            <span className="hero__stat-label">Projets GitHub</span>
+            <span className="hero__stat-label">Projets LyCloud</span>
           </div>
           <div className="hero__stat-divider" />
           <div className="hero__stat">

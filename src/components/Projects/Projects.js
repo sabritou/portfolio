@@ -15,10 +15,10 @@ function Projects() {
   return (
     <section id="projets" className="projects section--alt">
       <p className="section-label">Projets</p>
-      <h2 className="section-title">Mes réalisations</h2>
+      <h2 className="section-title">Réalisations LyCloud Agency</h2>
       <p className="section-subtitle">
-        Découvrez mes projets web en vidéo — présentations et démonstrations
-        directement sur le site.
+        Tous ces projets ont été conçus et développés par LyCloud Agency —
+        découvrez les démonstrations vidéo directement sur le site.
       </p>
 
       <div className="projects__filters">
