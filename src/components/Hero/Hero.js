@@ -27,14 +27,6 @@ function Hero() {
               <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </a>
-          <a
-            href={`${process.env.PUBLIC_URL}/cvsabridev.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline"
-          >
-            Télécharger mon CV
-          </a>
         </div>
 
         <div className="hero__stats">

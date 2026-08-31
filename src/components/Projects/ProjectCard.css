@@ -124,3 +124,17 @@
   font-size: 0.75rem;
   font-weight: 500;
 }
+
+.project-card__source {
+  display: block;
+  padding: 10px 20px;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+
+.project-card__source:hover {
+  color: var(--accent);
+}

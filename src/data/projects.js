@@ -2,6 +2,18 @@ const img = (file) => `${process.env.PUBLIC_URL}/img/${file}`;
 
 export const projects = [
   {
+    id: 'lycloud-agency',
+    title: 'LyCloud Agency',
+    description:
+      'Site officiel de LyCloud Agency — vitrine numérique de l\'agence de développement web.',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/sabritou/LyCloudAgencyOfficiel',
+    site: 'https://lycloudagency.fr',
+    image: img('lycloud.png'),
+    featured: true,
+    color: '#79c5ff',
+  },
+  {
     id: 'fruity',
     title: 'Fruity',
     description:
@@ -12,24 +24,14 @@ export const projects = [
     color: '#E8435A',
   },
   {
-    id: 'lycloud-agency',
-    title: 'LyCloud Agency',
-    description:
-      'Site officiel de LyCloud Agency — vitrine numérique de l\'agence de développement web.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/sabritou/LyCloudAgencyOfficiel',
-    image: img('lycloud.png'),
-    featured: true,
-    color: '#79c5ff',
-  },
-  {
     id: 'lycloudnews',
     title: 'LyCloud News',
     description:
       'Magazine digital présentant les services et actualités de LyCloud Agency dans le développement web.',
     tags: ['HTML', 'SCSS', 'JavaScript'],
     github: 'https://github.com/sabritou/lycloudnews',
-    image: img('lycloud.png'),
+    image: img('lynews.mp4'),
+    isVideo: true,
     featured: true,
     color: '#c27cff',
   },
