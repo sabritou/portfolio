@@ -39,17 +39,6 @@ function Navbar() {
               <a href={link.href} onClick={closeMenu}>{link.label}</a>
             </li>
           ))}
-          <li className="navbar__links-cta">
-            <a
-              href={`${process.env.PUBLIC_URL}/cvsabridev.pdf`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-              onClick={closeMenu}
-            >
-              Mon CV
-            </a>
-          </li>
         </ul>
 
         <button

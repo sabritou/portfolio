@@ -12,7 +12,7 @@ function Hero() {
 
         <h1 className="hero__title">
           Salut, je suis{' '}
-          <span className="hero__name">Sabri Kradaoui</span>
+            <span className="hero__name">Sabri</span>
         </h1>
 
         <p className="hero__subtitle">
@@ -39,7 +39,7 @@ function Hero() {
 
         <div className="hero__stats">
           <div className="hero__stat">
-            <span className="hero__stat-number">11+</span>
+            <span className="hero__stat-number">12+</span>
             <span className="hero__stat-label">Projets GitHub</span>
           </div>
           <div className="hero__stat-divider" />
@@ -63,7 +63,7 @@ function Hero() {
             <span /><span /><span />
           </div>
           <pre>{`const dev = {
-  name: "Sabri Kradaoui",
+  name: "Sabri",
   role: "Fullstack Dev",
   stack: ["React", "Node", "PHP"],
   location: "Lyon, FR",

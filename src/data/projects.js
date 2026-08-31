@@ -1,4 +1,4 @@
-const img = (file) => `${process.env.PUBLIC_URL}/img/${file}`;
+const media = (file) => `${process.env.PUBLIC_URL}/img/${file}`;
 
 export const projects = [
   {
@@ -7,7 +7,7 @@ export const projects = [
     description:
       'Site de présentation pour la marque Fruity, avec un slider central en JavaScript affichant des produits frais et colorés.',
     tags: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/sabritou/Fruity',
+    video: media('fruity.mp4'),
     featured: true,
     color: '#E8435A',
   },
@@ -17,8 +17,7 @@ export const projects = [
     description:
       'Site officiel de LyCloud Agency — vitrine numérique de l\'agence de développement web.',
     tags: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/sabritou/LyCloudAgencyOfficiel',
-    image: img('lycloud.png'),
+    video: media('lycloud-agency.mp4'),
     featured: true,
     color: '#79c5ff',
   },
@@ -28,8 +27,7 @@ export const projects = [
     description:
       'Magazine digital présentant les services et actualités de LyCloud Agency dans le développement web.',
     tags: ['HTML', 'SCSS', 'JavaScript'],
-    github: 'https://github.com/sabritou/lycloudnews',
-    image: img('lycloud.png'),
+    video: media('lycloudnews.mp4'),
     featured: true,
     color: '#c27cff',
   },
@@ -39,7 +37,7 @@ export const projects = [
     description:
       'Plateforme podcast de LyCloud Agency — diffusion et présentation des épisodes audio.',
     tags: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/sabritou/podcastlycloud',
+    video: media('podcastlycloud.mp4'),
     color: '#a855f7',
   },
   {
@@ -48,10 +46,18 @@ export const projects = [
     description:
       'Mon portfolio personnel développé en React — présentation de mes compétences et projets.',
     tags: ['React', 'JavaScript', 'CSS'],
-    github: 'https://github.com/sabritou/portfolio',
-    image: img('portfolio.png'),
+    image: media('portfolio.png'),
     featured: true,
     color: '#6366f1',
+  },
+  {
+    id: 'bizlio',
+    title: 'Bizlio lec',
+    description:
+      'Site vitrine pour une entreprise de petits travaux électriques — remplacement et pose de prises.',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    video: media('bizlio.mp4'),
+    color: '#2563eb',
   },
   {
     id: 'ly-ticket',
@@ -59,7 +65,6 @@ export const projects = [
     description:
       'Bot Discord de support et gestion de tickets — automatisation du service client sur Discord.',
     tags: ['JavaScript', 'Discord.js', 'Node.js'],
-    github: 'https://github.com/sabritou/ly-ticket',
     color: '#5865f2',
   },
   {
@@ -68,9 +73,7 @@ export const projects = [
     description:
       'Application PHP de gestion et intégration des réseaux sociaux.',
     tags: ['PHP', 'MySQL', 'HTML'],
-    github: 'https://github.com/sabritou/r-sauxsocial.php',
-    image: img('resauc.mp4'),
-    isVideo: true,
+    video: media('resauc.mp4'),
     color: '#0ea5e9',
   },
   {
@@ -79,8 +82,7 @@ export const projects = [
     description:
       'Projet collectif de visualisation de données — tableaux de bord interactifs et graphiques dynamiques.',
     tags: ['JavaScript', 'D3.js', 'HTML'],
-    github: 'https://github.com/sabritou/dataviz',
-    image: img('dataviz.png'),
+    image: media('dataviz.png'),
     color: '#10b981',
   },
   {
@@ -89,8 +91,7 @@ export const projects = [
     description:
       'Extension de navigateur développée en équipe — fonctionnalités custom intégrées au quotidien.',
     tags: ['JavaScript', 'Chrome API', 'HTML'],
-    github: 'https://github.com/sabritou/extension-de-navigateur',
-    image: img('extensionnav.jpg'),
+    image: media('extensionnav.jpg'),
     color: '#f59e0b',
   },
   {
@@ -99,8 +100,7 @@ export const projects = [
     description:
       'Marketplace e-commerce de vente de meubles — catalogue, panier et gestion des commandes.',
     tags: ['JavaScript', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/sabritou/plateforme-de-vente-de-meubles',
-    image: img('platformemeuble.jpg'),
+    image: media('platformemeuble.jpg'),
     color: '#ef4444',
   },
   {
@@ -109,8 +109,7 @@ export const projects = [
     description:
       'Jeu rétro développé sur la console fantasy Pico-8 — game design et programmation Lua.',
     tags: ['Lua', 'Pico-8', 'Game Dev'],
-    github: 'https://github.com/sabritou/pico-8',
-    image: img('pico8.jpg'),
+    image: media('pico8.jpg'),
     color: '#ec4899',
   },
 ];
