@@ -8,9 +8,9 @@
 
 .contact__cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 16px;
-  max-width: 640px;
+  max-width: 340px;
   margin: 0 auto 32px;
 }
 
