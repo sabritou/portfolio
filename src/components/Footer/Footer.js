@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer__inner">
         <p className="footer__copy">
-          © {year} Sabri Kradaoui — Développeur Fullstack
+          © {year} Sabri — Développeur Fullstack
         </p>
         <p className="footer__made">
           Conçu & développé avec React

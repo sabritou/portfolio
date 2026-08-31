@@ -8,13 +8,7 @@
 }
 
 .project-card:hover {
-  transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
-}
-
-.project-card__link {
-  display: block;
-  height: 100%;
 }
 
 .project-card__media {
@@ -24,17 +18,18 @@
   background: var(--bg-secondary);
 }
 
-.project-card__media img,
 .project-card__media video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
+  display: block;
+  background: #000;
 }
 
-.project-card:hover .project-card__media img,
-.project-card:hover .project-card__media video {
-  transform: scale(1.05);
+.project-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .project-card__placeholder {
@@ -51,28 +46,21 @@
   opacity: 0.8;
 }
 
-.project-card__overlay {
+.project-card__agency {
   position: absolute;
-  inset: 0;
-  background: rgba(26, 26, 26, 0.55);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: var(--transition);
-}
-
-.project-card:hover .project-card__overlay {
-  opacity: 1;
-}
-
-.project-card__github-icon {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--white);
+  top: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 100px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  z-index: 1;
+  pointer-events: none;
+  box-shadow: var(--shadow);
 }
 
 .project-card__badge {
@@ -87,6 +75,21 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #fff;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.project-card__no-video {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 100px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  pointer-events: none;
 }
 
 .project-card__body {
@@ -125,16 +128,8 @@
   font-weight: 500;
 }
 
-.project-card__source {
-  display: block;
-  padding: 10px 20px;
-  border-top: 1px solid var(--border);
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  transition: var(--transition);
-}
-
-.project-card__source:hover {
-  color: var(--accent);
+@media (min-width: 900px) {
+  .project-card--featured .project-card__media {
+    aspect-ratio: 16 / 9;
+  }
 }
